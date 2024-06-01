@@ -1,0 +1,15 @@
+name: 3-design-core
+
+services:
+  core:
+    build:
+      context: .
+      dockerfile: ./Dockerfile-dev
+    ports:
+      - "8080:8080"
+    develop:
+      watch:
+        - path: ./
+          action: rebuild
+          target: /api
+
