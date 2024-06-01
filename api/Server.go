@@ -1,7 +1,7 @@
 package api
 
 import (
-	"3-design-core/src/utils/logger"
+	"3-design-core/utils/logger"
 
 	"github.com/gin-gonic/gin"
 	ginlogrus "github.com/toorop/gin-logrus"

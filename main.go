@@ -1,7 +1,8 @@
 package main
 
 import (
-	"3-design-core/src/api"
+	"3-design-core/api"
+	"3-design-core/database"
 
 	env "github.com/joho/godotenv"
 )
@@ -9,5 +10,6 @@ import (
 func main() {
 	env.Load()
 
+	database.Init()
 	api.InitServer()
 }
