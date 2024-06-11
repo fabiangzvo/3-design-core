@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["gorm"],
+  "go.lintTool": "golint",
+  "editor.formatOnSave": true
+}
